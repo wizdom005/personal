@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+/* tag style */
+
+a{
+  color: #11999E;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin: 30px;
+  text-decoration: none;
+
+
+}
+
+
+h1{
+  margin: 30px 0 0;
+  font-size: 5.5rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+
+}
+
+h2{
+ color: #66BFBF;
+ font-size: 2rem;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+}
+
+hr{
+  border-width: 6px;
+  border-style: dotted;
+  border-top: 5px;
+  width: 4%;
+  border-color: #dbdbdb;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+p{
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+
+
+.button{
+
+  border-radius: 6px;
+  border: #1dc9e0 solid;
+  color: #1dc9e0;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 30px;
+  outline: none;
+  padding: 6px 20px;
+  transition-duration: 2s;
+  background-color: white;
+
+
+}
+
+.button:hover {
+  background-color: #0392a6;
+
+  color: #fff;
+}
+
+.p-bottom {
+  margin-top: 30px;
+}
+
+/* container style */
+
+.top-container{
+  background-color: #EAF6F6;
+  padding: 100px 200px 0;
+  position: relative;
+}
+
+.middle-container {
+  padding: 100px;
+
+}
+
+/* top container classes */
+
+.hello-div {
+  margin: 0 auto 100px auto ;
+  width: 25%
+}
+
+.p-skill{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.p-hello{
+
+}
+
+
+
+/* middle container classes */
+
+.Skills{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer-div{
+  margin-bottom: 80px;
+}
+
+
+.bottom-container{
+  width: 40%;
+  margin: 80px auto 0;
+}
+
+/* footer container */
+
+.footer {
+  background-color: #66BFBF;
+  padding: 50px 50px;
+}
+
+.footer p{
+  color: #EAF6F6;
+  margin-top: 30px;
+
+}
+
+
+/* image style */
+
+.computer{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies{
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
